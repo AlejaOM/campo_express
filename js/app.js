@@ -74,7 +74,114 @@ window.tiendas = [
     { id: 23, nombre: 'Manzana importada x kilo', precio: 2500, imagen: './assets/209_32.jpg' }
 ]
 
-  }
+  },
+
+{
+    id: 3,
+    nombre: "Fruver el Cacique",
+    imagen: "./assets/caciqueqq.jpg",
+    coordenadas: [7.098, -73.104],
+    productos:[
+    { id: 30, nombre: 'Papaya x kilo', precio: 2800, imagen: './assets/240_32.jpg' },
+    { id: 31, nombre: 'Uva verde x kilo', precio: 3500, imagen: './assets/281_4.jpg' },
+    { id: 32, nombre: 'Pitahaya x kilo', precio: 4200, imagen: './assets/369.jpg' },
+    { id: 33, nombre: 'Lechuga crespa x kilo', precio: 2200, imagen: './assets/7700934000116.jpg' },
+    { id: 34, nombre: 'Hierbabuena x kilo', precio: 2400, imagen: './assets/7707068801664.jpg' },
+    { id: 35, nombre: 'Romero x kilo', precio: 3500, imagen: './assets/7707068835614.jpg' },
+    { id: 36, nombre: 'Menta x kilo', precio: 3000, imagen: './assets/7707068810123.jpg' },
+    { id: 8, nombre: 'Auyama x kilo', precio: 2000, imagen: './assets/109_33.jpg' },
+    { id: 9, nombre: 'Guanabana x kilo', precio: 2500, imagen: './assets/169_32.jpg' },
+    { id: 10, nombre: 'Mandarina x kilo', precio: 1800, imagen: './assets/197_32.jpg' },
+    { id: 1, nombre: 'Aguacate x kilo', precio: 3500, imagen: './assets/104_33.jpg' },
+    { id: 2, nombre: 'Coco x kilo', precio: 2500, imagen: './assets/149_32.jpg' },
+    { id: 3, nombre: 'Lulo x kilo', precio: 3000, imagen: './assets/192_32.jpg' },
+    { id: 19, nombre: 'Uva importada x kilo', precio: 2500, imagen: './assets/278_33.jpg' },
+    { id: 20, nombre: 'Pera x kilo', precio: 2800, imagen: './assets/356.jpg' },
+    { id: 22, nombre: 'Platano verde x kilo', precio: 3000, imagen: './assets/176_32.jpg' },
+    { id: 23, nombre: 'Manzana importada x kilo', precio: 2500, imagen: './assets/209_32.jpg' },
+    { id: 11, nombre: 'Naranja x kilo', precio: 3200, imagen: './assets/227_33.jpg' },
+    { id: 12, nombre: 'Tomate x kilo', precio: 4000, imagen: './assets/275_32.jpg' },
+    { id: 17, nombre: 'Mango tomy x kilo', precio: 4000, imagen: './assets/204_32.jpg' },
+    { id: 18, nombre: 'Naranja importada x kilo', precio: 3500, imagen: './assets/230_32.jpg' },
+    { id: 13, nombre: 'Manzana rosada x kilo', precio: 5000, imagen: './assets/354.jpg' },
+    { id: 14, nombre: 'Zarzamora x kilo', precio: 3800, imagen: './assets/614143340512.jpg' },
+    { id: 15, nombre: 'Apio en rama x kilo', precio: 4200, imagen: './assets/120_30.jpg' },
+]
+
+  },
+  
+{
+    id: 4,
+    nombre: "Fruver La Canasta Campesina",
+    imagen: "./assets/lacanasta.webp",
+    coordenadas: [7.104, -73.201],
+    productos:[
+    { id: 22, nombre: 'Platano verde x kilo', precio: 3000, imagen: './assets/176_32.jpg' },
+    { id: 23, nombre: 'Manzana importada x kilo', precio: 2500, imagen: './assets/209_32.jpg' },
+    { id: 11, nombre: 'Naranja x kilo', precio: 3200, imagen: './assets/227_33.jpg' },
+    { id: 12, nombre: 'Tomate x kilo', precio: 4000, imagen: './assets/275_32.jpg' },
+    { id: 17, nombre: 'Mango tomy x kilo', precio: 4000, imagen: './assets/204_32.jpg' },
+    { id: 18, nombre: 'Naranja importada x kilo', precio: 3500, imagen: './assets/230_32.jpg' },
+    { id: 13, nombre: 'Manzana rosada x kilo', precio: 5000, imagen: './assets/354.jpg' },
+    { id: 14, nombre: 'Zarzamora x kilo', precio: 3800, imagen: './assets/614143340512.jpg' },
+    { id: 15, nombre: 'Apio en rama x kilo', precio: 4200, imagen: './assets/120_30.jpg' }, 
+    { id: 30, nombre: 'Papaya x kilo', precio: 2800, imagen: './assets/240_32.jpg' },
+    { id: 31, nombre: 'Uva verde x kilo', precio: 3500, imagen: './assets/281_4.jpg' },
+    { id: 32, nombre: 'Pitahaya x kilo', precio: 4200, imagen: './assets/369.jpg' },
+    { id: 33, nombre: 'Lechuga crespa x kilo', precio: 2200, imagen: './assets/7700934000116.jpg' },
+    { id: 34, nombre: 'Hierbabuena x kilo', precio: 2400, imagen: './assets/7707068801664.jpg' },
+    { id: 35, nombre: 'Romero x kilo', precio: 3500, imagen: './assets/7707068835614.jpg' },
+    { id: 36, nombre: 'Menta x kilo', precio: 3000, imagen: './assets/7707068810123.jpg' },
+    { id: 8, nombre: 'Auyama x kilo', precio: 2000, imagen: './assets/109_33.jpg' },
+    { id: 9, nombre: 'Guanabana x kilo', precio: 2500, imagen: './assets/169_32.jpg' },
+    { id: 10, nombre: 'Mandarina x kilo', precio: 1800, imagen: './assets/197_32.jpg' },
+    { id: 1, nombre: 'Aguacate x kilo', precio: 3500, imagen: './assets/104_33.jpg' },
+    { id: 2, nombre: 'Coco x kilo', precio: 2500, imagen: './assets/149_32.jpg' },
+    { id: 3, nombre: 'Lulo x kilo', precio: 3000, imagen: './assets/192_32.jpg' },
+    { id: 19, nombre: 'Uva importada x kilo', precio: 2500, imagen: './assets/278_33.jpg' },
+    { id: 20, nombre: 'Pera x kilo', precio: 2800, imagen: './assets/356.jpg' },
+    { id: 18, nombre: 'Naranja importada x kilo', precio: 3500, imagen: './assets/230_32.jpg' },
+    { id: 19, nombre: 'Uva importada x kilo', precio: 2500, imagen: './assets/278_33.jpg' },
+    { id: 22, nombre: 'Platano verde x kilo', precio: 3000, imagen: './assets/176_32.jpg' },
+    { id: 23, nombre: 'Manzana importada x kilo', precio: 2500, imagen: './assets/209_32.jpg' }
+   
+]
+
+  },
+  
+{
+    id: 5,
+    nombre: "GRAN FRUVER SUPER OLIMPICO ",
+    imagen: "./assets/granfruver.webp",
+    coordenadas: [7.098, -73.104],
+    productos:[
+    { id: 30, nombre: 'Papaya x kilo', precio: 2800, imagen: './assets/240_32.jpg' },
+    { id: 31, nombre: 'Uva verde x kilo', precio: 3500, imagen: './assets/281_4.jpg' },
+    { id: 32, nombre: 'Pitahaya x kilo', precio: 4200, imagen: './assets/369.jpg' },
+    { id: 33, nombre: 'Lechuga crespa x kilo', precio: 2200, imagen: './assets/7700934000116.jpg' },
+    { id: 34, nombre: 'Hierbabuena x kilo', precio: 2400, imagen: './assets/7707068801664.jpg' },
+    { id: 35, nombre: 'Romero x kilo', precio: 3500, imagen: './assets/7707068835614.jpg' },
+    { id: 12, nombre: 'Tomate x kilo', precio: 4000, imagen: './assets/275_32.jpg' },
+    { id: 17, nombre: 'Mango tomy x kilo', precio: 4000, imagen: './assets/204_32.jpg' },
+    { id: 18, nombre: 'Naranja importada x kilo', precio: 3500, imagen: './assets/230_32.jpg' },
+    { id: 13, nombre: 'Manzana rosada x kilo', precio: 5000, imagen: './assets/354.jpg' },
+    { id: 14, nombre: 'Zarzamora x kilo', precio: 3800, imagen: './assets/614143340512.jpg' },
+    { id: 15, nombre: 'Apio en rama x kilo', precio: 4200, imagen: './assets/120_30.jpg' },
+    { id: 36, nombre: 'Menta x kilo', precio: 3000, imagen: './assets/7707068810123.jpg' },
+    { id: 8, nombre: 'Auyama x kilo', precio: 2000, imagen: './assets/109_33.jpg' },
+    { id: 9, nombre: 'Guanabana x kilo', precio: 2500, imagen: './assets/169_32.jpg' },
+    { id: 19, nombre: 'Uva importada x kilo', precio: 2500, imagen: './assets/278_33.jpg' },
+    { id: 20, nombre: 'Pera x kilo', precio: 2800, imagen: './assets/356.jpg' },
+    { id: 22, nombre: 'Platano verde x kilo', precio: 3000, imagen: './assets/176_32.jpg' },
+    { id: 23, nombre: 'Manzana importada x kilo', precio: 2500, imagen: './assets/209_32.jpg' },
+    { id: 11, nombre: 'Naranja x kilo', precio: 3200, imagen: './assets/227_33.jpg' },
+]
+
+  }    
+
+
+
+  
 ];
 
 window.usuarios = [

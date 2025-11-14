@@ -62,7 +62,7 @@ class CarritoManager {
                             <img src="${item.imagen}" alt="${item.nombre}" 
                                  class="img-fluid rounded" style="height: 80px; object-fit: cover;"
                                  onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0iI2RkZCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LXNpemU9IjEyIiBmaWxsPSIjOTk5IiBkeT0iLjNlbSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+UHJvZHVjdG88L3RleHQ+PC9zdmc+'">
-                            ">
+                            
                         </div>
                         <div class="col-md-4">
                             <h6 class="card-title mb-1">${item.nombre}</h6>
