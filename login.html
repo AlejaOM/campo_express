@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - CampoExpress</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .login-container {
+            background: linear-gradient(135deg, #2e7d32, #4caf50);
+            min-height: 100vh;
+        }
+        .login-card {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+        .btn-login {
+            background: linear-gradient(135deg, #2e7d32, #4caf50);
+            border: none;
+            padding: 12px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body class="login-container">
+    <div class="container d-flex align-items-center justify-content-center min-vh-100">
+        <div class="row w-100">
+            <div class="col-md-6 mx-auto">
+                <div class="login-card p-5">
+                    <!-- Logo y Título -->
+                    <div class="text-center mb-4">
+                    
+                        <h1 class="text-success fw-bold"><img src="assets/logo.jpeg" alt="CampoExpress Logo" height="30"> CampoExpress</h1>
+                        <p class="text-muted">Frescos del campo a tu mesa</p>
+                    </div>
+
+                    <!-- Formulario de Login -->
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control form-control-lg" id="email" 
+                                   placeholder="tu@email.com" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control form-control-lg" id="password" 
+                                   placeholder="••••••••" required>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="remember">
+                            <label class="form-check-label" for="remember">Recordarme</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-login btn-lg w-100 text-white mb-3">
+                            Iniciar Sesión
+                        </button>
+
+                        <div class="text-center">
+                            <a href="#" class="text-success text-decoration-none">¿Olvidaste tu contraseña?</a>
+                        </div>
+                    </form>
+
+                    <!-- Separador -->
+                    <div class="position-relative my-4">
+                        <hr>
+                        <span class="position-absolute top-50 start-50 translate-middle bg-white px-3 text-muted">
+                            o
+                        </span>
+                    </div>
+
+                    <!-- Botón de Registro -->
+                    <div class="text-center">
+                        <p class="mb-0">¿No tienes cuenta?</p>
+                        <a href="./register.html" class="btn btn-outline-success btn-lg w-100 mt-2">
+                            Crear Cuenta
+                        </a>
+                    </div>
+
+                    <!-- Volver al inicio -->
+                    <div class="text-center mt-4">
+                        <a href="./index.html" class="text-decoration-none text-muted">
+                            ← Volver al inicio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/auth.js"></script>
+</body>
+</html>

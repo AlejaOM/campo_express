@@ -1,0 +1,52 @@
+<!-- components/navbar.html -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+  <div class="container">
+    <!-- Logo y nombre a la izquierda -->
+    <a class="navbar-brand navbar-brand-custom" href="index.html">
+      <span class="logo"> <img src="assets/logo.jpeg" alt="CampoExpress Logo" height="30"> </span>
+      CampoExpress
+    </a>
+
+    <!-- Botón hamburguesa para móviles -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Elementos centrales del navbar -->
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <ul class="navbar-nav mx-auto navbar-nav-custom">
+        <li class="nav-item">
+          <a class="nav-link nav-link-custom active" href="index.html">
+            <i class="fas fa-home me-1"></i>Inicio
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-custom" href="tiendas.html">
+            <i class="fas fa-store me-1"></i>Tiendas
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-custom" href="login.html">
+            <i class="fas fa-sign-in-alt me-1"></i>Iniciar Sesión
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-custom" href="register.html">
+            <i class="fas fa-user-plus me-1"></i>Registrarse
+          </a>
+        </li>
+      </ul>
+
+      <!-- Carrito (solo visible en páginas de tiendas) -->
+      <div id="navbarCarrito" class="navbar-nav" style="display: none;">
+        <a class="nav-link nav-link-custom position-relative" href="carrito.html">
+          <i class="fas fa-shopping-cart"></i>
+          Carrito
+          <span id="carritoCount" class="position-absolute top-0 start-100 translate-middle badge badge-custom rounded-pill">
+            0
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
